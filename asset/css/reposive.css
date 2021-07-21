@@ -1,0 +1,31 @@
+/* pc */
+
+@media (min-width: 64em){
+
+}
+
+/* table */
+
+@media (min-width: 46.25em) and (max-width:63.9375em){
+    .list-img .item-img,
+    .ceo .membr{
+        width: 49%;
+    }  
+}
+
+/* mobile */
+
+@media (max-width: 46.1875em){
+    #slider #pite .rad,
+    #header .header-list .nav{
+        display: none;
+    }
+    .ceo .membr,.content .send-mes,
+    .list-img .item-img{
+        width: 100%;
+    }
+    #header .menu-mobile{
+        display: block;
+    }
+}
+
